@@ -4,6 +4,7 @@ Official Documents: https://docs.chainlit.io/get-started/overview
 
 ```bash
 pip install chainlit
+bash init_setup.py
 ```
 
 

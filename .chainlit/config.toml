@@ -1,5 +1,6 @@
 [project]
 # Whether to enable telemetry (default: true). No personal data is collected.
+name="ChatBot"
 enable_telemetry = true
 
 

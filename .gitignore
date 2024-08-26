@@ -1,2 +1,5 @@
 venv
 .env
+texy.py
+Zomato_ChatBot.egg-info
+response.json

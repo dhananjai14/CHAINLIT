@@ -1,11 +1,12 @@
 import chainlit as cl
-
+from src.llm import ask_bot
+from src.config import instruction
 
 @cl.on_message
-async def main(message: cl.Message):
-    # Your custom logic goes here...
+async def main(user_message:cl.Message):
 
-    # Send a response back to the user
+    response=ask_bot(user_message.content,instruction)
+    
     await cl.Message(
-        content=f"Received: {message.content}",
+        content=f"Received: {response}",
     ).send()
